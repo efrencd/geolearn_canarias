@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://canarias.jameo.net/sitemap.xml

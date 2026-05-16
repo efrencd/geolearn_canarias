@@ -3,13 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <title>GeoLearn Canarias</title>
+    <title>GeoLearn Canarias | Aprende municipios y geología de Canarias</title>
+    <meta name="description" content="GeoLearn Canarias es una app educativa con mapa interactivo para aprender los municipios, islas y puntos de interés geológicos de Canarias jugando." />
+    <meta name="keywords" content="GeoLearn Canarias, aprender Canarias, municipios de Canarias, mapa de Canarias, geografía de Canarias, geología de Canarias, juego educativo Canarias" />
+    <meta name="author" content="Efren C. D." />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#9bc9e8" />
+    <link rel="canonical" href="https://canarias.jameo.net/" />
+    <link rel="icon" href="./assets/logo-geolearn-canarias.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="GeoLearn Canarias" />
+    <meta property="og:title" content="GeoLearn Canarias" />
+    <meta property="og:description" content="Mapa interactivo para aprender los municipios y puntos de interés geológicos de las Islas Canarias." />
+    <meta property="og:url" content="https://canarias.jameo.net/" />
+    <meta property="og:image" content="https://canarias.jameo.net/assets/logo-geolearn-canarias.svg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="GeoLearn Canarias" />
+    <meta name="twitter:description" content="Juego educativo con mapa interactivo para aprender Canarias." />
+    <meta name="twitter:image" content="https://canarias.jameo.net/assets/logo-geolearn-canarias.svg" />
     <link rel="stylesheet" href="./src/styles.css?v=canarias-31" />
     <script type="module" src="./src/app.js?v=canarias-31"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "GeoLearn Canarias",
+        "url": "https://canarias.jameo.net/",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "inLanguage": "es",
+        "description": "Aplicación educativa con mapa interactivo para aprender los municipios y puntos de interés geológicos de las Islas Canarias.",
+        "author": {
+          "@type": "Person",
+          "name": "Efren C. D."
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "EUR"
+        }
+      }
+    </script>
   </head>
   <body>
     <main id="appRoot" class="app-shell">
-      <div class="loading">Cargando...</div>
+      <section class="loading" aria-live="polite">
+        <h1>GeoLearn Canarias</h1>
+        <p>Juego educativo con mapa interactivo para aprender los municipios, las islas y los puntos de interés geológicos de Canarias.</p>
+        <p>Cargando mapa...</p>
+      </section>
+      <noscript>
+        <section>
+          <h2>Aprende geografía de Canarias</h2>
+          <p>GeoLearn Canarias necesita JavaScript para mostrar el mapa interactivo y los modos de juego y aprendizaje.</p>
+        </section>
+      </noscript>
     </main>
   </body>
 </html>
