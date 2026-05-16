@@ -1300,6 +1300,7 @@ code {
 .site-footer-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 8px;
   margin-top: auto;
@@ -1314,13 +1315,41 @@ code {
 }
 
 .site-footer-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #2b465f;
   text-decoration: none;
+}
+
+.github-repo-link {
+  width: 18px;
+  height: 18px;
+}
+
+.github-repo-link svg {
+  width: 15px;
+  height: 15px;
+  display: block;
+  fill: currentColor;
 }
 
 .site-footer-links a:hover {
   color: var(--blue-strong);
   text-decoration: underline;
+}
+
+.github-repo-link:hover {
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
 @media (max-width: 700px) {
