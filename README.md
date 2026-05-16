@@ -65,9 +65,42 @@ npm run deploy
 
 Los datos geograficos y municipales incluidos en `public/data/` se usan para representar los municipios y puntos de interes geologicos de Canarias.
 
+### Fuentes y atribucion
+
+- Los datos geograficos, municipales y de puntos de interes incluidos en `public/data/` se han preparado para esta aplicacion a partir de fuentes publicas y revision manual.
+- Los resumenes, enlaces e imagenes de articulos se consultan desde Wikipedia cuando existe un articulo relacionado. Wikipedia y sus contenidos pertenecen a sus respectivos autores y se publican bajo sus propias licencias.
+- Las noticias recientes se obtienen mediante Google News RSS. La aplicacion muestra titulares, fuente, fecha y enlace al medio original, sin copiar el contenido completo de los articulos.
+- Los enlaces a ayuntamientos y sitios externos pertenecen a sus respectivos titulares.
+
+Si reutilizas este proyecto, revisa tambien las condiciones de uso de las fuentes de datos y servicios externos que decidas mantener.
+
 ## Configuracion sensible
 
 No subas archivos locales como `.env`, `.dev.vars`, `.wrangler/`, bases de datos SQLite locales, logs ni credenciales personales. Estos archivos deben permanecer fuera del repositorio.
+
+## Aviso legal y privacidad
+
+La version web incluye paginas informativas en:
+
+- `/fuentes`
+- `/privacidad`
+- `/aviso-legal`
+
+Estas paginas ofrecen un aviso basico sobre fuentes, privacidad, almacenamiento local, servicios externos y finalidad educativa. Antes de usar la aplicacion en un contexto real con alumnado o profesorado, adapta esos textos a tu caso concreto y a la normativa aplicable.
+
+## Informacion para GitHub
+
+Descripcion sugerida:
+
+```text
+Mapa interactivo educativo para aprender municipios y puntos geologicos de Canarias
+```
+
+Topics sugeridos:
+
+```text
+canarias, geography, education, map, cloudflare-workers, javascript
+```
 
 ## Autoria
 

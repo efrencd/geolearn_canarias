@@ -1,8 +1,17 @@
 {
   "name": "geolearn-canarias",
   "version": "1.0.0",
+  "description": "Mapa interactivo educativo para aprender municipios y puntos geologicos de Canarias.",
   "private": true,
   "license": "MIT",
+  "keywords": [
+    "canarias",
+    "geography",
+    "education",
+    "map",
+    "cloudflare-workers",
+    "javascript"
+  ],
   "type": "module",
   "scripts": {
     "dev": "wrangler dev --config wrangler-canarias.toml",

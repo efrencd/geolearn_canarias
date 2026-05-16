@@ -1441,6 +1441,16 @@ function enableMapGestures(container) {
   syncLabelScale();
 }
 
+function legalLinks(className = "") {
+  return `
+    <nav class="site-footer-links ${className}" aria-label="Informacion legal">
+      <a href="/fuentes">Fuentes</a>
+      <a href="/privacidad">Privacidad</a>
+      <a href="/aviso-legal">Aviso legal</a>
+    </nav>
+  `;
+}
+
 function header(active) {
   const showPlayModeSwitch = active !== "teacher";
   const showIslandFilter = showPlayModeSwitch && state.playMode === "game";
@@ -1494,6 +1504,7 @@ function header(active) {
           <p class="teacher-sidebar-description">Gestiona tus clases, crea alumnado y revisa su progreso desde un panel privado de profesorado.</p>
         ` : ""}
       </div>
+      ${legalLinks("legal-links-menu")}
     </header>
   `;
 }
@@ -1564,7 +1575,7 @@ function wireTabs() {
 function createMapLogoOverlay() {
   const logo = document.createElement("img");
   logo.className = "map-logo-overlay";
-  logo.src = "/assets/logo-geolearn-canarias.svg?v=canarias-31";
+  logo.src = "/assets/logo-geolearn-canarias.svg?v=canarias-32";
   logo.alt = "GeoLearn Canarias";
   logo.loading = "eager";
   logo.decoding = "async";
@@ -2452,6 +2463,7 @@ function renderGame() {
         </section>
         <p id="gameMessage" class="game-message"></p>
         <section id="municipalityInfo" class="municipality-info" hidden></section>
+        ${legalLinks("legal-links-panel")}
       </aside>
       <section class="map-frame" id="mapMount"></section>
     </section>
@@ -2480,6 +2492,7 @@ function renderLearningMode() {
     <section class="game-layout learning-layout">
       <aside class="game-card learning-card">
         <section id="municipalityInfo" class="municipality-info"></section>
+        ${legalLinks("legal-links-panel")}
       </aside>
       <section class="map-frame" id="mapMount"></section>
     </section>
