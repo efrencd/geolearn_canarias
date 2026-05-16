@@ -1,0 +1,19 @@
+{
+  "name": "geolearn-canarias",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --config wrangler-canarias.toml",
+    "dev:provincias": "wrangler dev",
+    "deploy": "wrangler deploy --config wrangler-canarias.toml",
+    "deploy:provincias": "wrangler deploy",
+    "db:local": "wrangler d1 execute geolearn-canarias-db --config wrangler-canarias.toml --local --file=schema.sql",
+    "db:local:provincias": "wrangler d1 execute geolearn-provincias-db --local --file=schema.sql",
+    "db:remote": "wrangler d1 execute geolearn-canarias-db --config wrangler-canarias.toml --remote --file=schema.sql",
+    "db:remote:provincias": "wrangler d1 execute geolearn-provincias-db --remote --file=schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.87.0"
+  }
+}

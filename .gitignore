@@ -1,0 +1,12 @@
+.wrangler/
+node_modules/
+*.log
+server.out.log
+server.err.log
+.env
+.dev.vars
+/data/
+/src/
+/Provincias_de_España.svg
+/index.html
+/server.js

@@ -1,0 +1,12 @@
+name = "geolearn-canarias"
+main = "worker.js"
+compatibility_date = "2025-04-01"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "geolearn-canarias-db"
+database_id = "6a4361f5-3678-4b4b-a5f7-41b779638d83"

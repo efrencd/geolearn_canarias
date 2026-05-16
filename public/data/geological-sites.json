@@ -1,0 +1,443 @@
+[
+  {
+    "id": "tf-teide",
+    "name": "Teide",
+    "island": "Tenerife",
+    "lat": 28.2723,
+    "lng": -16.6425,
+    "type": "Estratovolcan",
+    "description": "El edificio volcanico mas alto de Canarias y de Espana. Su cumbre domina el complejo de Las Canadas y resume varias fases de crecimiento volcanico de Tenerife.",
+    "sourceUrl": "https://www.volcanoteide.com/"
+  },
+  {
+    "id": "tf-pico-viejo",
+    "name": "Pico Viejo",
+    "island": "Tenerife",
+    "lat": 28.263,
+    "lng": -16.666,
+    "type": "Crater volcanico",
+    "description": "Gran crater situado junto al Teide, con coladas historicas asociadas a las erupciones de Narices del Teide.",
+    "sourceUrl": "https://www.webtenerife.com/"
+  },
+  {
+    "id": "tf-roques-garcia",
+    "name": "Roques de Garcia",
+    "island": "Tenerife",
+    "lat": 28.223,
+    "lng": -16.631,
+    "type": "Diques y roques",
+    "description": "Afloramiento de diques, brechas y materiales erosionados en el borde de Las Canadas, con formas muy reconocibles como el Roque Cinchado.",
+    "sourceUrl": "https://www.webtenerife.com/"
+  },
+  {
+    "id": "tf-cueva-viento",
+    "name": "Cueva del Viento",
+    "island": "Tenerife",
+    "lat": 28.343,
+    "lng": -16.708,
+    "type": "Tubo volcanico",
+    "description": "Uno de los sistemas de tubos volcanicos mas extensos de Europa, formado por coladas del volcan Pico Viejo.",
+    "sourceUrl": "https://www.cuevadelviento.net/"
+  },
+  {
+    "id": "tf-montana-roja",
+    "name": "Montana Roja",
+    "island": "Tenerife",
+    "lat": 28.031,
+    "lng": -16.548,
+    "type": "Cono volcanico litoral",
+    "description": "Cono volcanico costero de tonos rojizos, modelado por el viento y el ambiente marino del sur de Tenerife.",
+    "sourceUrl": "https://www.webtenerife.com/"
+  },
+  {
+    "id": "tf-los-gigantes",
+    "name": "Acantilados de Los Gigantes",
+    "island": "Tenerife",
+    "lat": 28.244,
+    "lng": -16.842,
+    "type": "Acantilado",
+    "description": "Paredes volcanicas verticales que muestran la erosion marina sobre el macizo antiguo de Teno.",
+    "sourceUrl": "https://www.webtenerife.com/"
+  },
+  {
+    "id": "tf-malpais-guimar",
+    "name": "Malpais de Guimar",
+    "island": "Tenerife",
+    "lat": 28.297,
+    "lng": -16.377,
+    "type": "Malpais volcanico",
+    "description": "Campo de lavas jovenes con conos, tubos y superficies rugosas que conservan muy bien la morfologia volcanica.",
+    "sourceUrl": "https://www.webtenerife.com/"
+  },
+  {
+    "id": "gc-roque-nublo",
+    "name": "Roque Nublo",
+    "island": "Gran Canaria",
+    "lat": 27.969,
+    "lng": -15.612,
+    "type": "Roque volcanico",
+    "description": "Monolito volcanico emblematico de Gran Canaria, resultado de la erosion diferencial de materiales muy resistentes.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "gc-roque-bentayga",
+    "name": "Roque Bentayga",
+    "island": "Gran Canaria",
+    "lat": 27.995,
+    "lng": -15.62,
+    "type": "Roque volcanico",
+    "description": "Relieve abrupto del centro insular, ligado a materiales volcanicos antiguos y a la erosion de la cumbre.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "gc-caldera-bandama",
+    "name": "Caldera de Bandama",
+    "island": "Gran Canaria",
+    "lat": 28.038,
+    "lng": -15.459,
+    "type": "Caldera volcanica",
+    "description": "Depresion volcanica de gran diametro formada por procesos explosivos recientes en el noreste de Gran Canaria.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "gc-guayadeque",
+    "name": "Barranco de Guayadeque",
+    "island": "Gran Canaria",
+    "lat": 27.92,
+    "lng": -15.46,
+    "type": "Barranco",
+    "description": "Barranco profundo que corta materiales volcanicos y muestra la incision erosiva del relieve insular.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "gc-dedo-dios",
+    "name": "Dedo de Dios",
+    "island": "Gran Canaria",
+    "lat": 28.1,
+    "lng": -15.71,
+    "type": "Roque marino",
+    "description": "Monolito basaltico situado junto a Puerto de las Nieves, modelado por la erosion marina y convertido en una forma emblematica del litoral noroeste de Gran Canaria.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "gc-tamadaba",
+    "name": "Macizo de Tamadaba",
+    "island": "Gran Canaria",
+    "lat": 28.058,
+    "lng": -15.694,
+    "type": "Macizo antiguo",
+    "description": "Relieve abrupto del noroeste grancanario, con grandes escarpes y materiales antiguos muy erosionados.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "gc-pico-nieves",
+    "name": "Pico de las Nieves",
+    "island": "Gran Canaria",
+    "lat": 27.962,
+    "lng": -15.571,
+    "type": "Cumbre insular",
+    "description": "Una de las mayores alturas de Gran Canaria, situada en la cumbre central y rodeada por relieves volcanicos y escarpes erosivos.",
+    "sourceUrl": "https://www.grancanaria.com/"
+  },
+  {
+    "id": "lz-timanfaya",
+    "name": "Timanfaya",
+    "island": "Lanzarote",
+    "lat": 29.005,
+    "lng": -13.753,
+    "type": "Campo volcanico",
+    "description": "Paisaje volcanico generado por las erupciones historicas del siglo XVIII, con conos, hornitos y extensas coladas.",
+    "sourceUrl": "https://www.cactlanzarote.com/"
+  },
+  {
+    "id": "lz-la-geria",
+    "name": "La Geria",
+    "island": "Lanzarote",
+    "lat": 28.966,
+    "lng": -13.676,
+    "type": "Paisaje volcanico agrario",
+    "description": "Paisaje de lapilli y hoyos de cultivo excavados en cenizas volcanicas, resultado del aprovechamiento humano de materiales de las erupciones historicas.",
+    "sourceUrl": "https://turismolanzarote.com/"
+  },
+  {
+    "id": "lz-el-golfo",
+    "name": "El Golfo y Charco de los Clicos",
+    "island": "Lanzarote",
+    "lat": 28.976,
+    "lng": -13.829,
+    "type": "Crater litoral",
+    "description": "Antiguo crater abierto al mar con una laguna verde, donde se observa la interaccion entre volcanismo, mar y sedimentos.",
+    "sourceUrl": "https://turismolanzarote.com/"
+  },
+  {
+    "id": "lz-famara",
+    "name": "Famara",
+    "island": "Lanzarote",
+    "lat": 29.118,
+    "lng": -13.563,
+    "type": "Risco y costa",
+    "description": "Gran escarpe del norte de Lanzarote, donde la erosion deja al descubierto materiales antiguos y una potente fachada acantilada.",
+    "sourceUrl": "https://turismolanzarote.com/"
+  },
+  {
+    "id": "lz-cueva-verdes",
+    "name": "Cueva de los Verdes",
+    "island": "Lanzarote",
+    "lat": 29.157,
+    "lng": -13.439,
+    "type": "Tubo volcanico",
+    "description": "Tramo visitable del tubo volcanico formado por las coladas del volcan de La Corona.",
+    "sourceUrl": "https://www.cactlanzarote.com/"
+  },
+  {
+    "id": "lz-jameos-agua",
+    "name": "Jameos del Agua",
+    "island": "Lanzarote",
+    "lat": 29.159,
+    "lng": -13.432,
+    "type": "Jameo volcanico",
+    "description": "Aberturas naturales en un tubo volcanico, acondicionadas como espacio cultural y cientifico.",
+    "sourceUrl": "https://www.cactlanzarote.com/"
+  },
+  {
+    "id": "lz-los-ajaches",
+    "name": "Los Ajaches",
+    "island": "Lanzarote",
+    "lat": 28.884,
+    "lng": -13.792,
+    "type": "Macizo antiguo",
+    "description": "Macizo volcanico antiguo del sur de Lanzarote, con relieves erosionados que contrastan con los campos volcanicos recientes de la isla.",
+    "sourceUrl": "https://turismolanzarote.com/"
+  },
+  {
+    "id": "fv-tindaya",
+    "name": "Montana de Tindaya",
+    "island": "Fuerteventura",
+    "lat": 28.596,
+    "lng": -13.981,
+    "type": "Relieve volcanico",
+    "description": "Montana aislada con gran valor paisajistico, cultural y geologico en el norte de Fuerteventura.",
+    "sourceUrl": "https://visitfuerteventura.com/"
+  },
+  {
+    "id": "fv-pico-zarza",
+    "name": "Pico de la Zarza",
+    "island": "Fuerteventura",
+    "lat": 28.101,
+    "lng": -14.367,
+    "type": "Cumbre insular",
+    "description": "Punto culminante de Fuerteventura, en el macizo de Jandia, con grandes laderas y barrancos modelados por la erosion.",
+    "sourceUrl": "https://visitfuerteventura.com/"
+  },
+  {
+    "id": "fv-isla-lobos",
+    "name": "Isla Lobos",
+    "island": "Fuerteventura",
+    "lat": 28.744,
+    "lng": -13.824,
+    "type": "Islote volcanico",
+    "description": "Islote situado entre Fuerteventura y Lanzarote, formado por materiales volcanicos y rodeado por plataformas litorales y fondos someros.",
+    "wikipediaTitle": "Islote de Lobos (Canarias)",
+    "sourceUrl": "https://visitfuerteventura.com/"
+  },
+  {
+    "id": "fv-betancuria",
+    "name": "Parque rural de Betancuria",
+    "island": "Fuerteventura",
+    "lat": 28.424,
+    "lng": -14.056,
+    "type": "Macizo antiguo",
+    "description": "Sector montanoso del oeste de Fuerteventura donde afloran algunos de los materiales mas antiguos del archipielago canario.",
+    "sourceUrl": "https://visitfuerteventura.com/"
+  },
+  {
+    "id": "fv-cofete",
+    "name": "Cofete",
+    "island": "Fuerteventura",
+    "lat": 28.112,
+    "lng": -14.372,
+    "type": "Arco montanoso y costa",
+    "description": "Gran anfiteatro natural en Jandia, con laderas abruptas, playa extensa y fuerte dinamica erosiva.",
+    "sourceUrl": "https://visitfuerteventura.com/"
+  },
+  {
+    "id": "fv-dunas-corralejo",
+    "name": "Dunas de Corralejo",
+    "island": "Fuerteventura",
+    "lat": 28.704,
+    "lng": -13.831,
+    "type": "Sistema dunar",
+    "description": "Campo de arenas claras de origen mayoritariamente biogenico, modelado por vientos alisios.",
+    "sourceUrl": "https://visitfuerteventura.com/"
+  },
+  {
+    "id": "lp-caldera-taburiente",
+    "name": "Caldera de Taburiente",
+    "island": "La Palma",
+    "lat": 28.73,
+    "lng": -17.87,
+    "type": "Caldera erosiva",
+    "description": "Enorme depresion del centro de La Palma, excavada por erosion y deslizamientos sobre un edificio volcanico antiguo.",
+    "sourceUrl": "https://www.visitlapalma.es/"
+  },
+  {
+    "id": "lp-roque-muchachos",
+    "name": "Roque de los Muchachos",
+    "island": "La Palma",
+    "lat": 28.754,
+    "lng": -17.885,
+    "type": "Cumbre volcanica",
+    "description": "Punto culminante de La Palma, en el borde de la Caldera de Taburiente, con vistas a estructuras erosivas muy marcadas.",
+    "sourceUrl": "https://www.visitlapalma.es/"
+  },
+  {
+    "id": "lp-cumbre-vieja",
+    "name": "Cumbre Vieja",
+    "island": "La Palma",
+    "lat": 28.57,
+    "lng": -17.83,
+    "type": "Dorsal volcanica",
+    "description": "Dorsal activa del sur de La Palma, donde se alinean conos y erupciones historicas.",
+    "sourceUrl": "https://www.visitlapalma.es/"
+  },
+  {
+    "id": "lp-tajogaite",
+    "name": "Volcan Tajogaite",
+    "island": "La Palma",
+    "lat": 28.612,
+    "lng": -17.866,
+    "type": "Cono volcanico reciente",
+    "description": "Volcan formado en la erupcion de 2021, con coladas recientes que transformaron el valle de Aridane.",
+    "sourceUrl": "https://www.visitlapalma.es/"
+  },
+  {
+    "id": "lp-san-antonio",
+    "name": "Volcan San Antonio",
+    "island": "La Palma",
+    "lat": 28.493,
+    "lng": -17.846,
+    "type": "Cono volcanico",
+    "description": "Cono del extremo sur palmero, con crater visitable y relacion historica con el volcanismo reciente de la isla.",
+    "sourceUrl": "https://www.visitlapalma.es/"
+  },
+  {
+    "id": "lp-teneguia",
+    "name": "Volcan Teneguia",
+    "island": "La Palma",
+    "lat": 28.47,
+    "lng": -17.843,
+    "type": "Cono volcanico historico",
+    "description": "Volcan de la erupcion de 1971, clave para entender la actividad reciente del sur de La Palma.",
+    "sourceUrl": "https://www.visitlapalma.es/"
+  },
+  {
+    "id": "lg-roque-agando",
+    "name": "Roque Agando",
+    "island": "La Gomera",
+    "lat": 28.104,
+    "lng": -17.202,
+    "type": "Piton volcanico",
+    "description": "Roque formado por material volcanico resistente que quedo en relieve al erosionarse los materiales de alrededor.",
+    "sourceUrl": "https://lagomera.travel/"
+  },
+  {
+    "id": "lg-los-organos",
+    "name": "Los Organos",
+    "island": "La Gomera",
+    "lat": 28.213,
+    "lng": -17.33,
+    "type": "Disyuncion columnar",
+    "description": "Acantilado con columnas volcanicas que recuerdan a tubos de organo, visible principalmente desde el mar.",
+    "sourceUrl": "https://lagomera.travel/"
+  },
+  {
+    "id": "lg-fortaleza-chipude",
+    "name": "Fortaleza de Chipude",
+    "island": "La Gomera",
+    "lat": 28.09,
+    "lng": -17.297,
+    "type": "Mesa volcanica",
+    "description": "Relieve tabular aislado, muy reconocible en el paisaje del centro-sur de La Gomera.",
+    "sourceUrl": "https://lagomera.travel/"
+  },
+  {
+    "id": "lg-garajonay",
+    "name": "Alto de Garajonay",
+    "island": "La Gomera",
+    "lat": 28.126,
+    "lng": -17.238,
+    "type": "Cumbre insular",
+    "description": "Punto mas alto de La Gomera, dentro de un macizo antiguo intensamente erosionado.",
+    "sourceUrl": "https://lagomera.travel/"
+  },
+  {
+    "id": "lg-majona",
+    "name": "Parque natural de Majona",
+    "island": "La Gomera",
+    "lat": 28.168,
+    "lng": -17.151,
+    "type": "Barrancos y acantilados",
+    "description": "Espacio del noreste gomero con barrancos profundos, lomos y acantilados labrados sobre materiales volcanicos antiguos.",
+    "sourceUrl": "https://lagomera.travel/"
+  },
+  {
+    "id": "eh-el-julan",
+    "name": "El Julan",
+    "island": "El Hierro",
+    "lat": 27.711,
+    "lng": -18.09,
+    "type": "Ladera volcanica",
+    "description": "Amplia ladera del suroeste herreno, importante por su paisaje volcanico y su valor cultural.",
+    "sourceUrl": "https://www.elhierro.travel/"
+  },
+  {
+    "id": "eh-roques-salmor",
+    "name": "Roques de Salmor",
+    "island": "El Hierro",
+    "lat": 27.818,
+    "lng": -17.989,
+    "type": "Roques marinos",
+    "description": "Restos erosivos frente a la costa norte, testigos de antiguos materiales volcanicos.",
+    "sourceUrl": "https://www.elhierro.travel/"
+  },
+  {
+    "id": "eh-el-golfo",
+    "name": "Valle de El Golfo",
+    "island": "El Hierro",
+    "lat": 27.759,
+    "lng": -18.013,
+    "type": "Escarpe de deslizamiento",
+    "description": "Gran anfiteatro del norte de El Hierro, relacionado con un deslizamiento gravitacional gigante.",
+    "sourceUrl": "https://www.elhierro.travel/"
+  },
+  {
+    "id": "eh-la-restinga",
+    "name": "Volcan submarino de La Restinga",
+    "island": "El Hierro",
+    "lat": 27.63,
+    "lng": -17.99,
+    "type": "Volcan submarino",
+    "description": "Zona de la erupcion submarina de 2011, referencia reciente del volcanismo activo canario.",
+    "sourceUrl": "https://www.elhierro.travel/"
+  },
+  {
+    "id": "eh-las-playas",
+    "name": "Las Playas",
+    "island": "El Hierro",
+    "lat": 27.72,
+    "lng": -17.955,
+    "type": "Escarpe litoral",
+    "description": "Gran arco costero limitado por laderas abruptas, con fuerte control volcanico y erosivo.",
+    "sourceUrl": "https://www.elhierro.travel/"
+  },
+  {
+    "id": "eh-pico-malpaso",
+    "name": "Pico de Malpaso",
+    "island": "El Hierro",
+    "lat": 27.733,
+    "lng": -18.041,
+    "type": "Cumbre insular",
+    "description": "Punto mas alto de El Hierro, clave para situar la dorsal y los relieves volcanicos del centro de la isla.",
+    "sourceUrl": "https://www.elhierro.travel/"
+  }
+]

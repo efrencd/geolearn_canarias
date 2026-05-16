@@ -1,0 +1,618 @@
+{
+  "35001": {
+    "code": "35001",
+    "name": "Agaete",
+    "island": "Gran Canaria",
+    "population": 5683,
+    "website": "http://www.aytoagaete.es/"
+  },
+  "35002": {
+    "code": "35002",
+    "name": "Agüimes",
+    "island": "Gran Canaria",
+    "population": 33800,
+    "website": "http://www.aguimes.es"
+  },
+  "35003": {
+    "code": "35003",
+    "name": "Antigua",
+    "island": "Fuerteventura",
+    "population": 14164,
+    "website": "http://www.ayto-antigua.es"
+  },
+  "35004": {
+    "code": "35004",
+    "name": "Arrecife",
+    "island": "Lanzarote",
+    "population": 70811,
+    "website": "http://www.arrecife.es/"
+  },
+  "35005": {
+    "code": "35005",
+    "name": "Artenara",
+    "island": "Gran Canaria",
+    "population": 1024,
+    "website": "http://www.artenara.es"
+  },
+  "35006": {
+    "code": "35006",
+    "name": "Arucas",
+    "island": "Gran Canaria",
+    "population": 39232,
+    "website": "http://www.arucas.org"
+  },
+  "35007": {
+    "code": "35007",
+    "name": "Betancuria",
+    "island": "Fuerteventura",
+    "population": 801,
+    "website": "http://www.aytobetancuria.org"
+  },
+  "35008": {
+    "code": "35008",
+    "name": "Firgas",
+    "island": "Gran Canaria",
+    "population": 7728,
+    "website": "http://www.firgas.es"
+  },
+  "35009": {
+    "code": "35009",
+    "name": "Gáldar",
+    "island": "Gran Canaria",
+    "population": 25108,
+    "website": "http://www.galdar.es"
+  },
+  "35010": {
+    "code": "35010",
+    "name": "Haría",
+    "island": "Lanzarote",
+    "population": 5623,
+    "website": "http://www.ayuntamientodeharia.com"
+  },
+  "35011": {
+    "code": "35011",
+    "name": "Ingenio",
+    "island": "Gran Canaria",
+    "population": 32905,
+    "website": "http://www.ingenio.es"
+  },
+  "35012": {
+    "code": "35012",
+    "name": "Mogán",
+    "island": "Gran Canaria",
+    "population": 21172,
+    "website": "http://www.mogan.es"
+  },
+  "35013": {
+    "code": "35013",
+    "name": "Moya",
+    "island": "Gran Canaria",
+    "population": 8007,
+    "website": "http://www.villademoya.es"
+  },
+  "35014": {
+    "code": "35014",
+    "name": "La Oliva",
+    "island": "Fuerteventura",
+    "population": 30022,
+    "website": "http://www.laoliva.es/"
+  },
+  "35015": {
+    "code": "35015",
+    "name": "Pájara",
+    "island": "Fuerteventura",
+    "population": 21570,
+    "website": "http://www.pajara.es"
+  },
+  "35016": {
+    "code": "35016",
+    "name": "Las Palmas de Gran Canaria",
+    "island": "Gran Canaria",
+    "population": 381868,
+    "website": "http://www.laspalmasgc.es"
+  },
+  "35017": {
+    "code": "35017",
+    "name": "Puerto del Rosario",
+    "island": "Fuerteventura",
+    "population": 46150,
+    "website": "http://www.puertodelrosario.org"
+  },
+  "35018": {
+    "code": "35018",
+    "name": "San Bartolomé",
+    "island": "Lanzarote",
+    "population": 19551,
+    "website": "http://www.sanbartolome.es"
+  },
+  "35019": {
+    "code": "35019",
+    "name": "San Bartolomé de Tirajana",
+    "island": "Gran Canaria",
+    "population": 54291,
+    "website": "http://www.maspalomas.com/"
+  },
+  "35020": {
+    "code": "35020",
+    "name": "La Aldea de San Nicolás",
+    "island": "Gran Canaria",
+    "population": 7401,
+    "website": "http://www.laaldeadesannicolas.es"
+  },
+  "35021": {
+    "code": "35021",
+    "name": "Santa Brígida",
+    "island": "Gran Canaria",
+    "population": 18766,
+    "website": "http://www.santabrigida.es"
+  },
+  "35022": {
+    "code": "35022",
+    "name": "Santa Lucía de Tirajana",
+    "island": "Gran Canaria",
+    "population": 78584,
+    "website": "http://www.santaluciagc.com"
+  },
+  "35023": {
+    "code": "35023",
+    "name": "Santa María de Guía",
+    "island": "Gran Canaria",
+    "population": 14311,
+    "website": "http://www.santamariadeguia.es/"
+  },
+  "35024": {
+    "code": "35024",
+    "name": "Teguise",
+    "island": "Lanzarote",
+    "population": 24027,
+    "website": "http://www.teguise.es"
+  },
+  "35025": {
+    "code": "35025",
+    "name": "Tejeda",
+    "island": "Gran Canaria",
+    "population": 1806,
+    "website": "http://www.tejeda.es"
+  },
+  "35026": {
+    "code": "35026",
+    "name": "Telde",
+    "island": "Gran Canaria",
+    "population": 104168,
+    "website": "http://www.telde.es"
+  },
+  "35027": {
+    "code": "35027",
+    "name": "Teror",
+    "island": "Gran Canaria",
+    "population": 13211,
+    "website": "http://www.teror.es"
+  },
+  "35028": {
+    "code": "35028",
+    "name": "Tías",
+    "island": "Lanzarote",
+    "population": 21613,
+    "website": "http://www.ayuntamientodetias.es"
+  },
+  "35029": {
+    "code": "35029",
+    "name": "Tinajo",
+    "island": "Lanzarote",
+    "population": 6939,
+    "website": "http://www.tinajo.es"
+  },
+  "35030": {
+    "code": "35030",
+    "name": "Tuineje",
+    "island": "Fuerteventura",
+    "population": 16834,
+    "website": "http://www.ayuntamientotuineje.com"
+  },
+  "35031": {
+    "code": "35031",
+    "name": "Valsequillo",
+    "island": "Gran Canaria",
+    "population": 9869,
+    "website": "http://www.valsequillogc.es"
+  },
+  "35032": {
+    "code": "35032",
+    "name": "Valleseco",
+    "island": "Gran Canaria",
+    "population": 3775,
+    "website": "http://www.valleseco.es"
+  },
+  "35033": {
+    "code": "35033",
+    "name": "Vega de San Mateo",
+    "island": "Gran Canaria",
+    "population": 7899,
+    "website": "http://www.vegadesanmateo.es"
+  },
+  "35034": {
+    "code": "35034",
+    "name": "Yaiza",
+    "island": "Lanzarote",
+    "population": 18842,
+    "website": "http://www.yaiza.org"
+  },
+  "38001": {
+    "code": "38001",
+    "name": "Adeje",
+    "island": "Tenerife",
+    "population": 50021,
+    "website": "http://www.adeje.es"
+  },
+  "38002": {
+    "code": "38002",
+    "name": "Agulo",
+    "island": "La Gomera",
+    "population": 1078,
+    "website": "http://www.agulo.es"
+  },
+  "38003": {
+    "code": "38003",
+    "name": "Alajeró",
+    "island": "La Gomera",
+    "population": 2061,
+    "website": "http://www.ayuntamientoalajero.es"
+  },
+  "38004": {
+    "code": "38004",
+    "name": "Arafo",
+    "island": "Tenerife",
+    "population": 5945,
+    "website": "http://www.arafo.es"
+  },
+  "38005": {
+    "code": "38005",
+    "name": "Arico",
+    "island": "Tenerife",
+    "population": 9505,
+    "website": "http://ayuntamientodearico.com/"
+  },
+  "38006": {
+    "code": "38006",
+    "name": "Arona",
+    "island": "Tenerife",
+    "population": 87793,
+    "website": "http://www.arona.org"
+  },
+  "38007": {
+    "code": "38007",
+    "name": "Barlovento",
+    "island": "La Palma",
+    "population": 2108,
+    "website": "http://www.barlovento.es"
+  },
+  "38008": {
+    "code": "38008",
+    "name": "Breña Alta",
+    "island": "La Palma",
+    "population": 7487,
+    "website": "http://www.balta.org/"
+  },
+  "38009": {
+    "code": "38009",
+    "name": "Breña Baja",
+    "island": "La Palma",
+    "population": 6159,
+    "website": "http://www.bbaja.es"
+  },
+  "38010": {
+    "code": "38010",
+    "name": "Buenavista del Norte",
+    "island": "Tenerife",
+    "population": 4695,
+    "website": "http://buenavistadelnorte.es/"
+  },
+  "38011": {
+    "code": "38011",
+    "name": "Candelaria",
+    "island": "Tenerife",
+    "population": 29023,
+    "website": "http://www.candelaria.es"
+  },
+  "38012": {
+    "code": "38012",
+    "name": "Fasnia",
+    "island": "Tenerife",
+    "population": 3145,
+    "website": "http://www.fasnia.com"
+  },
+  "38013": {
+    "code": "38013",
+    "name": "Frontera",
+    "island": "El Hierro",
+    "population": 4660,
+    "website": "http://www.aytofrontera.org"
+  },
+  "38014": {
+    "code": "38014",
+    "name": "Fuencaliente",
+    "island": "La Palma",
+    "population": 1965,
+    "website": "http://www.fuencalientedelapalma.es"
+  },
+  "38015": {
+    "code": "38015",
+    "name": "Garachico",
+    "island": "Tenerife",
+    "population": 4940,
+    "website": "http://www.garachico.es"
+  },
+  "38016": {
+    "code": "38016",
+    "name": "Garafía",
+    "island": "La Palma",
+    "population": 2015,
+    "website": "http://www.garafia.es"
+  },
+  "38017": {
+    "code": "38017",
+    "name": "Granadilla de Abona",
+    "island": "Tenerife",
+    "population": 58752,
+    "website": "http://www.granadilladeabona.org"
+  },
+  "38018": {
+    "code": "38018",
+    "name": "La Guancha",
+    "island": "Tenerife",
+    "population": 5667,
+    "website": "http://www.laguancha.es"
+  },
+  "38019": {
+    "code": "38019",
+    "name": "Guía de Isora",
+    "island": "Tenerife",
+    "population": 22654,
+    "website": "http://www.guiadeisora.org"
+  },
+  "38020": {
+    "code": "38020",
+    "name": "Güímar",
+    "island": "Tenerife",
+    "population": 22009,
+    "website": "http://www.guimar.es"
+  },
+  "38021": {
+    "code": "38021",
+    "name": "Hermigua",
+    "island": "La Gomera",
+    "population": 1961,
+    "website": "http://www.villadehermigua.com"
+  },
+  "38022": {
+    "code": "38022",
+    "name": "Icod de los Vinos",
+    "island": "Tenerife",
+    "population": 24616,
+    "website": "http://www.icoddelosvinos.es"
+  },
+  "38023": {
+    "code": "38023",
+    "name": "La Laguna",
+    "island": "Tenerife",
+    "population": 161108,
+    "website": "https://www.aytolalaguna.es/"
+  },
+  "38024": {
+    "code": "38024",
+    "name": "Los Llanos de Aridane",
+    "island": "La Palma",
+    "population": 20582,
+    "website": "http://www.aridane.org/"
+  },
+  "38025": {
+    "code": "38025",
+    "name": "La Matanza de Acentejo",
+    "island": "Tenerife",
+    "population": 9089,
+    "website": "http://www.matanceros.es"
+  },
+  "38026": {
+    "code": "38026",
+    "name": "La Orotava",
+    "island": "Tenerife",
+    "population": 42514,
+    "website": "http://www.villadelaorotava.org"
+  },
+  "38027": {
+    "code": "38027",
+    "name": "El Paso",
+    "island": "La Palma",
+    "population": 8290,
+    "website": "http://www.elpaso.es"
+  },
+  "38028": {
+    "code": "38028",
+    "name": "Puerto de la Cruz",
+    "island": "Tenerife",
+    "population": 31137,
+    "website": "http://www.puertodelacruz.es"
+  },
+  "38029": {
+    "code": "38029",
+    "name": "Puntagorda",
+    "island": "La Palma",
+    "population": 2345,
+    "website": "http://www.puntagorda.es"
+  },
+  "38030": {
+    "code": "38030",
+    "name": "Puntallana",
+    "island": "La Palma",
+    "population": 2790,
+    "website": "http://www.puntallana.es"
+  },
+  "38031": {
+    "code": "38031",
+    "name": "Los Realejos",
+    "island": "Tenerife",
+    "population": 37867,
+    "website": "http://www.losrealejos.es"
+  },
+  "38032": {
+    "code": "38032",
+    "name": "El Rosario",
+    "island": "Tenerife",
+    "population": 17958,
+    "website": "http://www.ayuntamientoelrosario.org"
+  },
+  "38033": {
+    "code": "38033",
+    "name": "San Andrés y Sauces",
+    "island": "La Palma",
+    "population": 4350,
+    "website": "http://www.sanandresysauces.es"
+  },
+  "38034": {
+    "code": "38034",
+    "name": "San Juan de la Rambla",
+    "island": "Tenerife",
+    "population": 4987,
+    "website": "http://www.sanjuandelarambla.es"
+  },
+  "38035": {
+    "code": "38035",
+    "name": "San Miguel de Abona",
+    "island": "Tenerife",
+    "population": 23960,
+    "website": "http://www.sanmigueldeabona.org/"
+  },
+  "38036": {
+    "code": "38036",
+    "name": "San Sebastián de la Gomera",
+    "island": "La Gomera",
+    "population": 9574,
+    "website": "http://www.sansebastiangomera.org"
+  },
+  "38037": {
+    "code": "38037",
+    "name": "Santa Cruz de la Palma",
+    "island": "La Palma",
+    "population": 15690,
+    "website": "http://www.santacruzdelapalma.es"
+  },
+  "38038": {
+    "code": "38038",
+    "name": "Santa Cruz de Tenerife",
+    "island": "Tenerife",
+    "population": 211957,
+    "website": "http://www.santacruzdetenerife.es"
+  },
+  "38039": {
+    "code": "38039",
+    "name": "Santa Úrsula",
+    "island": "Tenerife",
+    "population": 15429,
+    "website": "http://santaursula.es"
+  },
+  "38040": {
+    "code": "38040",
+    "name": "Santiago del Teide",
+    "island": "Tenerife",
+    "population": 12582,
+    "website": "http://www.santiagodelteide.org"
+  },
+  "38041": {
+    "code": "38041",
+    "name": "El Sauzal",
+    "island": "Tenerife",
+    "population": 9345,
+    "website": "http://www.elsauzal.es"
+  },
+  "38042": {
+    "code": "38042",
+    "name": "Los Silos",
+    "island": "Tenerife",
+    "population": 4773,
+    "website": "http://www.lossilos.es"
+  },
+  "38043": {
+    "code": "38043",
+    "name": "Tacoronte",
+    "island": "Tenerife",
+    "population": 24619,
+    "website": "http://www.tacoronte.es"
+  },
+  "38044": {
+    "code": "38044",
+    "name": "El Tanque",
+    "island": "Tenerife",
+    "population": 2787,
+    "website": "http://www.eltanque.es"
+  },
+  "38045": {
+    "code": "38045",
+    "name": "Tazacorte",
+    "island": "La Palma",
+    "population": 4549,
+    "website": "http://www.tazacorte.es"
+  },
+  "38046": {
+    "code": "38046",
+    "name": "Tegueste",
+    "island": "Tenerife",
+    "population": 11490,
+    "website": "http://https://www.tegueste.es/"
+  },
+  "38047": {
+    "code": "38047",
+    "name": "Tijarafe",
+    "island": "La Palma",
+    "population": 2733,
+    "website": "http://www.tijarafe.es"
+  },
+  "38048": {
+    "code": "38048",
+    "name": "Valverde",
+    "island": "El Hierro",
+    "population": 5338,
+    "website": "http://www.aytovalverde.org"
+  },
+  "38049": {
+    "code": "38049",
+    "name": "Valle Gran Rey",
+    "island": "La Gomera",
+    "population": 4830,
+    "website": "http://www.vallegranrey.es"
+  },
+  "38050": {
+    "code": "38050",
+    "name": "Vallehermoso",
+    "island": "La Gomera",
+    "population": 2938,
+    "website": "http://www.vallehermosoweb.es"
+  },
+  "38051": {
+    "code": "38051",
+    "name": "La Victoria de Acentejo",
+    "island": "Tenerife",
+    "population": 9448,
+    "website": "http://www.lavictoriadeacentejo.es"
+  },
+  "38052": {
+    "code": "38052",
+    "name": "Vilaflor",
+    "island": "Tenerife",
+    "population": 1930,
+    "website": null
+  },
+  "38053": {
+    "code": "38053",
+    "name": "Villa de Mazo",
+    "island": "La Palma",
+    "population": 5131,
+    "website": "http://www.villademazo.es"
+  },
+  "38901": {
+    "code": "38901",
+    "name": "El Pinar",
+    "island": "El Hierro",
+    "population": 2042,
+    "website": "http://www.aytoelpinar.org/"
+  }
+}
