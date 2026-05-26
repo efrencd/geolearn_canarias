@@ -239,6 +239,13 @@ function contentFilterLabel(value = state.selectedContentFilter) {
   return "Municipios";
 }
 
+function roundControlLabel() {
+  if (!state.gameRoundStarted) {
+    return "Comenzar ronda";
+  }
+  return state.roundComplete ? "Nueva ronda" : "Reiniciar ronda";
+}
+
 function siteId(site) {
   return site.id;
 }
@@ -1499,7 +1506,7 @@ function header(active) {
                 <option value="both" ${state.selectedContentFilter === "both" ? "selected" : ""}>Municipios y puntos</option>
               </select>
             </label>
-            <button class="start-round-button" type="button" data-start-round>Comenzar ronda</button>
+            <button class="start-round-button" type="button" data-start-round>${roundControlLabel()}</button>
           ` : ""}
         ` : ""}
         ${active === "teacher" ? `
@@ -1662,6 +1669,9 @@ function flyToCurrentTargetIsland() {
 
 function updateGameHud(message = "") {
   document.querySelector(".game-card")?.classList.toggle("is-round-complete", state.roundComplete);
+  document.querySelectorAll("[data-start-round]").forEach((button) => {
+    button.textContent = roundControlLabel();
+  });
   if (!state.gameRoundStarted) {
     document.querySelector("#targetName").textContent = "Prepara la ronda";
     document.querySelector("#targetIsland").textContent = contentFilterLabel();
@@ -2464,8 +2474,11 @@ function renderGame() {
           </div>
         </section>
         <section class="hud-card hud-score">
-          <p class="eyebrow">Puntuacion</p>
-          <p class="hud-score-value"><strong id="scoreText">0</strong> <span>puntos</span></p>
+          <div class="hud-score-content">
+            <p class="eyebrow">Puntuacion</p>
+            <p class="hud-score-value"><strong id="scoreText">0</strong> <span>puntos</span></p>
+          </div>
+          <button class="quick-round-button" type="button" data-start-round>Nueva ronda</button>
         </section>
         <p id="gameMessage" class="game-message"></p>
         <section id="municipalityInfo" class="municipality-info" hidden></section>

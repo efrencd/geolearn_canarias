@@ -621,6 +621,10 @@ input {
   line-height: 1;
 }
 
+.quick-round-button {
+  display: none;
+}
+
 .game-card.modern-hud .game-message,
 .game-card.modern-hud #municipalityInfo {
   display: none !important;
@@ -2116,7 +2120,24 @@ code {
   }
 
   .game-card.modern-hud.is-round-complete .hud-score {
-    display: block;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(124px, 0.9fr);
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .game-card.modern-hud.is-round-complete .quick-round-button {
+    min-height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 8px;
+    padding: 0 12px;
+    background: linear-gradient(135deg, #21a35a 0%, #35cf72 100%);
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 1.1;
   }
 
   .game-message:empty {
