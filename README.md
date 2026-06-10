@@ -1,25 +1,25 @@
 # GeoLearn Canarias
 
-GeoLearn Canarias es una aplicacion web educativa para aprender los municipios y puntos de interes geologicos de las Islas Canarias mediante un mapa interactivo.
+GeoLearn Canarias es una aplicación web educativa para aprender los municipios y puntos de interés geológicos de las Islas Canarias mediante un mapa interactivo.
 
-## Caracteristicas
+## Características
 
-- Modo aprendizaje con informacion de municipios y puntos geologicos.
-- Modo juego con rondas de preguntas sobre municipios, puntos geologicos o ambos.
+- Modo aprendizaje con información de municipios y puntos geológicos.
+- Modo juego con rondas de preguntas sobre municipios, puntos geológicos o ambos.
 - Selector por islas y por tipo de contenido.
-- Mapa interactivo con zoom, desplazamiento y adaptacion a movil, tablet y escritorio.
-- Informacion municipal con poblacion, enlace al ayuntamiento, extractos de Wikipedia y noticias recientes.
-- Informacion de puntos geologicos con extractos de Wikipedia cuando estan disponibles.
+- Mapa interactivo con zoom, desplazamiento y adaptación a móvil, tablet y escritorio.
+- Información municipal con población, enlace al ayuntamiento, extractos de Wikipedia y noticias recientes.
+- Información de puntos geológicos con extractos de Wikipedia cuando están disponibles.
 - Despliegue preparado para Cloudflare Workers y Cloudflare D1.
 
-## Tecnologias
+## Tecnologías
 
 - JavaScript, HTML y CSS sin framework frontend.
 - Cloudflare Workers.
 - Cloudflare D1.
 - Wrangler.
 
-## Instalacion
+## Instalación
 
 ```bash
 npm install
@@ -31,7 +31,7 @@ npm install
 npm run dev
 ```
 
-La aplicacion estara disponible normalmente en:
+La aplicación estará disponible normalmente en:
 
 ```text
 http://localhost:8787
@@ -53,7 +53,7 @@ Para inicializar la base de datos local:
 npm run db:local
 ```
 
-Para produccion, crea tu propia base de datos D1 y actualiza el `database_id` en `wrangler-canarias.toml`.
+Para producción, crea tu propia base de datos D1 y actualiza el `database_id` en `wrangler-canarias.toml`.
 
 ## Despliegue
 
@@ -63,37 +63,37 @@ npm run deploy
 
 ## Datos
 
-Los datos geograficos y municipales incluidos en `public/data/` se usan para representar los municipios y puntos de interes geologicos de Canarias.
+Los datos geográficos y municipales incluidos en `public/data/` se usan para representar los municipios y puntos de interés geológicos de Canarias.
 
-### Fuentes y atribucion
+### Fuentes y atribución
 
-- Los datos geograficos, municipales y de puntos de interes incluidos en `public/data/` se han preparado para esta aplicacion a partir de fuentes publicas y revision manual.
-- Los resumenes, enlaces e imagenes de articulos se consultan desde Wikipedia cuando existe un articulo relacionado. Wikipedia y sus contenidos pertenecen a sus respectivos autores y se publican bajo sus propias licencias.
-- Las noticias recientes se obtienen mediante Google News RSS. La aplicacion muestra titulares, fuente, fecha y enlace al medio original, sin copiar el contenido completo de los articulos.
+- Los datos geográficos, municipales y de puntos de interés incluidos en `public/data/` se han preparado para esta aplicación a partir de fuentes públicas y revisión manual.
+- Los resúmenes, enlaces e imágenes de artículos se consultan desde Wikipedia cuando existe un artículo relacionado. Wikipedia y sus contenidos pertenecen a sus respectivos autores y se publican bajo sus propias licencias.
+- Las noticias recientes se obtienen mediante Google News RSS. La aplicación muestra titulares, fuente, fecha y enlace al medio original, sin copiar el contenido completo de los artículos.
 - Los enlaces a ayuntamientos y sitios externos pertenecen a sus respectivos titulares.
 
-Si reutilizas este proyecto, revisa tambien las condiciones de uso de las fuentes de datos y servicios externos que decidas mantener.
+Si reutilizas este proyecto, revisa también las condiciones de uso de las fuentes de datos y servicios externos que decidas mantener.
 
-## Configuracion sensible
+## Configuración sensible
 
 No subas archivos locales como `.env`, `.dev.vars`, `.wrangler/`, bases de datos SQLite locales, logs ni credenciales personales. Estos archivos deben permanecer fuera del repositorio.
 
 ## Aviso legal y privacidad
 
-La version web incluye paginas informativas en:
+La versión web incluye páginas informativas en:
 
 - `/fuentes`
 - `/privacidad`
 - `/aviso-legal`
 
-Estas paginas ofrecen un aviso basico sobre fuentes, privacidad, almacenamiento local, servicios externos y finalidad educativa. Antes de usar la aplicacion en un contexto real con alumnado o profesorado, adapta esos textos a tu caso concreto y a la normativa aplicable.
+Estas páginas ofrecen un aviso básico sobre fuentes, privacidad, almacenamiento local, servicios externos y finalidad educativa. Antes de usar la aplicación en un contexto real con alumnado o profesorado, adapta esos textos a tu caso concreto y a la normativa aplicable.
 
-## Informacion para GitHub
+## Información para GitHub
 
-Descripcion sugerida:
+Descripción sugerida:
 
 ```text
-Mapa interactivo educativo para aprender municipios y puntos geologicos de Canarias
+Mapa interactivo educativo para aprender municipios y puntos geológicos de Canarias
 ```
 
 Topics sugeridos:
@@ -102,12 +102,12 @@ Topics sugeridos:
 canarias, geography, education, map, cloudflare-workers, javascript
 ```
 
-## Autoria
+## Autoría
 
-Proyecto creado originalmente por **Efren C. D.**
+Proyecto creado originalmente por **Efrén C. D.**
 
-Si reutilizas, modificas o redistribuyes este proyecto, conserva la atribucion original segun los terminos de la licencia MIT.
+Si reutilizas, modificas o redistribuyes este proyecto, conserva la atribución original según los términos de la licencia MIT.
 
 ## Licencia
 
-Este proyecto esta publicado bajo licencia MIT. Consulta el archivo `LICENSE`.
+Este proyecto está publicado bajo licencia MIT. Consulta el archivo `LICENSE`.
