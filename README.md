@@ -67,7 +67,11 @@ Los datos geográficos y municipales incluidos en `public/data/` se usan para re
 
 ### Fuentes y atribución
 
-- Los datos geográficos, municipales y de puntos de interés incluidos en `public/data/` se han preparado para esta aplicación a partir de fuentes públicas y revisión manual.
+- Las geometrías administrativas se han preparado a partir de datasets públicos de Opendatasoft/Huwise, en concreto `georef-spain-municipio` y `georef-spain-provincia`, con datos procedentes del Instituto Geográfico Nacional. Licencia CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+- Los datos se han filtrado para Canarias, adaptado y revisado manualmente para su uso en GeoLearn Canarias.
+- Dataset de municipios: https://public.opendatasoft.com/explore/dataset/georef-spain-municipio/
+- Dataset de provincias: https://public.opendatasoft.com/explore/dataset/georef-spain-provincia/
+- Los datos municipales complementarios y de puntos de interés incluidos en `public/data/` se han preparado para esta aplicación a partir de fuentes públicas y revisión manual.
 - Los resúmenes, enlaces e imágenes de artículos se consultan desde Wikipedia cuando existe un artículo relacionado. Wikipedia y sus contenidos pertenecen a sus respectivos autores y se publican bajo sus propias licencias.
 - Las noticias recientes se obtienen mediante Google News RSS. La aplicación muestra titulares, fuente, fecha y enlace al medio original, sin copiar el contenido completo de los artículos.
 - Los enlaces a ayuntamientos y sitios externos pertenecen a sus respectivos titulares.
